@@ -1,0 +1,45 @@
+{
+  "best_model_name": "Logistic Regression",
+  "optimal_threshold": 0.51,
+  "test_macro_f1": 0.566923998728285,
+  "test_recall_serious": 0.5741811175337187,
+  "test_precision_serious": 0.3214670981661273,
+  "test_roc_auc": 0.6290796637091505,
+  "test_pr_auc": 0.34252599593035044,
+  "numerical_features": [
+    "Temperature(F)",
+    "Humidity(%)",
+    "Pressure(in)",
+    "Visibility(mi)",
+    "Wind_Speed(mph)",
+    "Precipitation(in)",
+    "Distance(mi)",
+    "Hour",
+    "DayOfWeek",
+    "Month",
+    "Is_Weekend",
+    "Is_Rush_Hour",
+    "Is_Night"
+  ],
+  "categorical_features": [
+    "Side",
+    "Sunrise_Sunset",
+    "Weather_Condition_Group",
+    "Day_Part",
+    "Season"
+  ],
+  "road_flag_features": [
+    "Amenity",
+    "Bump",
+    "Crossing",
+    "Give_Way",
+    "Junction",
+    "No_Exit",
+    "Railway",
+    "Roundabout",
+    "Station",
+    "Stop",
+    "Traffic_Calming",
+    "Traffic_Signal"
+  ]
+}

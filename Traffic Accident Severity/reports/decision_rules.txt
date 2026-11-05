@@ -1,0 +1,21 @@
+=== SHALLOW DECISION TREE EXTRACTED RULES (Serious vs Non-Serious) ===
+
+|--- Sunrise_Sunset_Day <= 0.50
+|   |--- Junction <= 0.50
+|   |   |--- Visibility(mi) <= -3.80
+|   |   |   |--- class: 1
+|   |   |--- Visibility(mi) >  -3.80
+|   |   |   |--- class: 1
+|   |--- Junction >  0.50
+|   |   |--- Wind_Speed(mph) <= -0.70
+|   |   |   |--- class: 1
+|   |   |--- Wind_Speed(mph) >  -0.70
+|   |   |   |--- class: 1
+|--- Sunrise_Sunset_Day >  0.50
+|   |--- Visibility(mi) <= -3.69
+|   |   |--- class: 1
+|   |--- Visibility(mi) >  -3.69
+|   |   |--- Junction <= 0.50
+|   |   |   |--- class: 0
+|   |   |--- Junction >  0.50
+|   |   |   |--- class: 1
